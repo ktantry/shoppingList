@@ -1,0 +1,102 @@
+/* Body and Header Style */ 
+body {
+	background-color: gray;
+}
+
+h1 {
+	text-align: center;
+	color: green;
+}
+
+
+/* Shopping Cart Style */
+.shopping-cart {
+	width: 45px;
+   	position: absolute;
+	margin-top: -65px;	
+}
+
+/* Table Style */
+table {
+	width: 75%;
+}
+
+table div {
+	margin-bottom: 18px;
+}
+
+/* Button Styles */
+.button-data {
+	border: none;
+}
+
+button {
+	background-color: red;
+	color: white;
+	border-color: red;
+	border-radius: 4px;
+	height: 20px;
+	width: 100px;
+	display: block;
+	font-size: 12px;
+}
+
+button:hover {
+	background-color: #d9400e;
+	border-color: #cf3d0e;
+    cursor: pointer;
+}
+
+.button-list-class {
+	float: left;
+	list-style-type: none;
+}
+
+
+.add-button {
+	font-size: 20px;
+	width: 100px;
+	height: 40px;
+	background-color: blue;
+	border: solid 1px blue;
+}
+
+.add-button:hover {
+	background-color: green;
+	border-color: green;
+    cursor: pointer;
+}
+
+.delete-button {
+	float: right;
+}
+
+
+/* Data Styles */
+td {
+	border: solid 1px blue;
+	text-align: right;
+	width: 15%;
+	font-size: 20px;
+}
+
+.delete-data {
+	border: none;
+}
+
+/* Dummy Row and Footer Styles */
+.dummy-row {
+	height: 40px;
+}
+
+
+/* Footer Styles */
+.footer-dummy {
+	border: none;
+	height: 40px;
+}
+
+.total-money {
+	font-weight: bold;
+}
+
