@@ -74,7 +74,6 @@ button:hover {
 
 /* Data Styles */
 td {
-	border: solid 1px blue;
 	text-align: right;
 	width: 15%;
 	font-size: 20px;
@@ -85,15 +84,20 @@ td {
 }
 
 /* Dummy Row and Footer Styles */
+
 .dummy-row {
 	height: 40px;
+}
+
+.dummy-row-1 {
+	height: -30px;
 }
 
 
 /* Footer Styles */
 .footer-dummy {
 	border: none;
-	height: 40px;
+	height: 0px;
 }
 
 .total-money {
