@@ -27,9 +27,7 @@ table div {
 
 /* Button Styles */
 .button-data {
-	margin-right: 50px;
-	padding-top: -20px;
-	padding-left: 75px;
+	border: solid 1px red;
 }
 
 button {
@@ -39,8 +37,9 @@ button {
 	border-radius: 4px;
 	height: 20px;
 	width: 100px;
-	display: block;
+	/* display: inline-block; */
 	font-size: 12px;
+	margin: 0 6px;
 }
 
 button:hover {
@@ -63,9 +62,6 @@ button:hover {
 	height: 20px;
 	background-color: blue;
 	border: solid 1px blue;
-	margin-left: -70px;
-	float: left;
-	margin-right: 20px;
 }
 
 .add-button:hover {
@@ -80,8 +76,6 @@ button:hover {
 	height: 20px;
 	background-color: red;
 	border: solid 1px red;
-	/* margin-left: -70px; */
-	float: left;
 }
 
 
@@ -90,6 +84,10 @@ td {
 	text-align: right;
 	width: 15%;
 	font-size: 20px;
+}
+
+td.checkbox {
+	text-align: center !important;
 }
 
 .delete-data {
