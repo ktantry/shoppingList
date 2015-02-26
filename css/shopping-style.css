@@ -27,7 +27,7 @@ table div {
 
 /* Button Styles */
 .button-data {
-	border: solid 1px red;
+/* 	border: solid 1px red; */
 }
 
 button {
@@ -116,6 +116,9 @@ td.checkbox {
 	height: 0px;
 }
 
+.footer-table {
+	border: solid 1px red;
+}
 .total-money {
 	font-weight: bold;
 }
@@ -124,4 +127,23 @@ tr {
 	margin-right: 100px;
 }
 
+ul {
+	width: 75%;
+	margin-top: 50px;
+}
+
+li {
+	margin-bottom: 20px;
+	margin-left: 1230px;
+	font-style: italic;
+	font-style: bold;
+	list-style-type: none;
+	color: green;
+}
+
+li input {
+	height: 20px;
+	font-size: 15px;
+	font-style: bold;
+}
 
